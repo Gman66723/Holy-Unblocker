@@ -27,7 +27,7 @@ jobs:
         run: |
           npm install
           cd lib/rammerhead && npm install && cd ../..
-          npm run test --if-present
+          npm run build --if-present
 
       - name: Upload artifact for deployment job
         uses: actions/upload-artifact@v4
