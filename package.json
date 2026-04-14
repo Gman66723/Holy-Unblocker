@@ -16,7 +16,7 @@
     "test": "npm run proxy-validator",
     "manual-start": "node run-command.mjs start",
     "kill": "node run-command.mjs stop kill",
-    "build": "node run-command.mjs build && cd lib/rammerhead && npm run build",
+    "build": "node run-command.mjs build",
     "clear": "node run-command.mjs clean",
     "clean": "node run-command.mjs clean format",
     "proxy-validator": "node proxyServiceValidator.js",
